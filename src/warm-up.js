@@ -35,9 +35,9 @@ console.log(isFavorite)
 // assign a boolean value to this variable. If "inStock" is less than 20, the
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
-var shouldOrderMore = {
-    if 
-}
+
+var shouldOrderMore = (inStock < 20)
+console.log(shouldOrderMore)
 
 
 //------------------------- Conditionals -------------------------//
