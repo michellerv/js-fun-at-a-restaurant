@@ -105,9 +105,13 @@ var groceryStore = {
 }
 
 groceryStore.hours = '8am - 10pm'
+groceryStore.managers = ['Sam', 'Ronda','Eloise']
 
 console.log('groceryStore object', groceryStore)
 
 
 // Write the code to add the key of location, with the value of 'Denver, Colorado'. Use dot
-// notation to do this. DO NOT modify your code from above.
+// notation to do this. DO NOT modify your code from above. 
+// (Note from Michelle: I used dot notation initially in the previous object question. Was not modified.)
+ groceryStore.location = 'Denver, Colorado'
+ console.log('add location', groceryStore)
