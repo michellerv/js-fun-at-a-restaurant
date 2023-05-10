@@ -47,11 +47,12 @@ console.log(shouldOrderMore)
 // Express the following in code: If the variable "stockCount" is greater or equal to 1, log
 // the statement 'I'm going to eat some [food]!', otherwise, log the statement 
 // 'We need to get some more [food].'
+var stockCount = 5
 
 if (stockCount >= 1){
-    console.log('I\'m going to eat some ${food}!')
+    console.log(`I\'m going to eat some ${food}!`)
 }  else {
-    console.log('We need to get some more ${food}!')
+    console.log(`We need to get some more ${food}.`)
 }
 
 
@@ -62,9 +63,9 @@ if (stockCount >= 1){
 // the "food" variable should be included in the logged statement.
 
 if (isFavorite === true) {
-    console.log('My favorite food is ${food}!')
+    console.log(`My favorite food is ${food}!`)
 }   else {
-    console.log('I recently ate ${food}')
+    console.log(`I recently ate ${food}.`)
 }
 
 
