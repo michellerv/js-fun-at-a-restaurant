@@ -99,6 +99,14 @@ console.log(fruits[4])
 // keys: name, and isOpen. The value for name should the string 'King Soopers' (or your favorite grocery store), and
 // the value for isOpen should be true. Which other key value pairs would make sense to add to this object?
 
+var groceryStore = {
+    name: 'King Soopers',
+    isOpen: true
+}
+
+groceryStore.hours = '8am - 10pm'
+
+console.log('groceryStore object', groceryStore)
 
 
 // Write the code to add the key of location, with the value of 'Denver, Colorado'. Use dot
