@@ -81,14 +81,17 @@ var vegetables = ['carrot', 'potato', 'radish', 'tomato','cucumber']
 // Write the code to access the 3rd element of the Array, using bracket
 // notation.
 
-console.log[vegetables[2]]
+console.log(vegetables[2])
 
 // Create a new variable "fruits" and assign it to an Array of 7
 // different fruits.
 
+var fruits = ['banana', 'apple', 'mango', 'orange', 'pineapple', 'pear', 'strawberry']
+
 
 // Write the code to access the 5th element of the array, using bracket notation.
 
+console.log(fruits[4])
 
 //------------------------- Objects -------------------------//
 
