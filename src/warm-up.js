@@ -18,21 +18,26 @@ var inStock = 10
 // Reassign (not initialize) your "inStock" variable from above. We got a new shipment! Use a built in math operator to make 
 // the inStock count double what it currently is.
 inStock = inStock * 2
+console.log(inStock)
 
 // Reassign (not initialize) your "inStock" variable from above. You got hungry and needed a snack! 
 // Use a built in math operator to decrement the inStock count by 1.
-
+inStock = --inStock
+console.log(inStock)
 
 // Initialize a new variable "isFavorite", and assign it to a boolean value indicating
 // if the food you chose is your favorite food or not
 
-
+var isFavorite = false
+console.log(isFavorite)
 
 // Create a new variable named "shouldOrderMore", and use a comparison operator to
 // assign a boolean value to this variable. If "inStock" is less than 20, the
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
-
+var shouldOrderMore = {
+    if 
+}
 
 
 //------------------------- Conditionals -------------------------//
