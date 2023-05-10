@@ -61,6 +61,11 @@ if (stockCount >= 1){
 // statement 'I recently ate [food]'. In either case, the value stored in
 // the "food" variable should be included in the logged statement.
 
+if (isFavorite === true) {
+    console.log('My favorite food is ${food}!')
+}   else {
+    console.log('I recently ate ${food}')
+}
 
 
 
