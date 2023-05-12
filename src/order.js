@@ -25,7 +25,7 @@ function searchOrder(deliveryOrders, item) {
 var array = []
   for (var i = 0; i < deliveryOrders.length; i++) {
     array.push(deliveryOrders[i].item)
-    array.join(',') } {
+ } {
 if (array.includes(item)) {
   return true
   } else {
