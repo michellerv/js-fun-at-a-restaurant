@@ -13,13 +13,17 @@ function createMenuItem(name, price, type) {
 
 function addIngredients(topping, ingredients) {
   if (!ingredients.includes(topping))
-  //"!" is a logical NOt operator that takes the truth and makes it false. 
+  //"!" is a logical NOT operator that takes what is true and makes it false. 
   //It is working on the ingredients array.
   //The .includes method determines if something is included in the array.
   // The if statement says, if a topping is not already included in the ingredient array
   return ingredients.push(topping)
-}// then it can be pushed.
-
+} // then it can be pushed.
+//or
+// function addIngredients(topping, ingredients) {
+//   if (ingredients.includes(topping) === false)
+//   return ingredients.push(topping)
+// }
 
 function formatPrice(price) {
 return `$${price}`
