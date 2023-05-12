@@ -17,8 +17,12 @@ function addIngredients(topping, ingredients) {
 }
 
 
-function formatPrice() {
+function formatPrice(price) {
+return `$${price}`
+}
 
+function decreasePrice(price) {
+  return price - price * .10
 }
 
 module.exports = {
@@ -26,7 +30,7 @@ module.exports = {
   createMenuItem,
   addIngredients,
   formatPrice,
-  // decreasePrice,
+  decreasePrice,
   // createRecipe
 }
 
