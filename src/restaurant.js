@@ -29,11 +29,21 @@ function removeMenuItem(resName, item, orderT) {
   return `Sorry, we don\'t sell ${item}, try adding a new recipe!`
 }
 
+function checkForFood(resName, item) {
+  var menus = resName.menus[item.type]
 
+  for ( var i = 0; i < menus.length; i++) {
+    if (menus[i].name === item.name) {
+      return `Yes, we're serving ${item.name} today!`
+    } 
+  }
+  return `Sorry, we aren\'t serving ${item.name} today.`
+
+}
 
 module.exports = {
   createRestaurant, 
   addMenuItem,
   removeMenuItem,
-  // checkForFood
+  checkForFood
 }
