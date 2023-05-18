@@ -19,7 +19,7 @@ function addMenuItem(resName, item) {
 
 function removeMenuItem(resName, item, orderT) {  
   var menus = resName.menus[orderT]
-
+  
   for ( var i = 0; i < menus.length; i++) {
     if (menus[i].name === item) {
       menus.splice(i, 1) 
