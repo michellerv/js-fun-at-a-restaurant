@@ -1,6 +1,6 @@
 function takeOrder(orders, deliveryOrders) {
-if (deliveryOrders.length <= 2) 
-  return deliveryOrders.push(orders)
+  if (deliveryOrders.length <= 2) 
+    return deliveryOrders.push(orders)
 }
 
 
@@ -9,8 +9,8 @@ function refundOrder(orderNumber, deliveryOrders) {
     if (deliveryOrders[i].orderNumber === orderNumber) {
       deliveryOrders.splice(i, 1)
       break;
-    } 
-  }
+      } 
+    }
   }
 
 function listItems(deliveryOrders) {
@@ -28,7 +28,8 @@ var array = []
  } {
 if (array.includes(item)) {
   return true
-  } else {
+  } 
+  else {
     return false
   }
   }

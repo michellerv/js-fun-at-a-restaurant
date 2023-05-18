@@ -37,7 +37,7 @@ console.log(isFavorite)
 // comparison operator.
 
 var shouldOrderMore = (inStock < 20)
-console.log(shouldOrderMore)
+console.log('shouldOrderMore', shouldOrderMore)
 
 
 //------------------------- Conditionals -------------------------//
