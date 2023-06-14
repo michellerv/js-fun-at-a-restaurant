@@ -28,3 +28,6 @@ problem.
   - run `npm install` to install the necessary dependencies
   
   The project spec can be found [here](https://frontend.turing.edu/projects/module-1/restaurant.html).
+  
+  ## Experience
+  - First project given during module one of attending Turing School of Software and Design. A solo project that allowed us to practice and explore newly gained skills of writing JavaScript.
